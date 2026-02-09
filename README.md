@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+# 🎮 Каталог компьютерных игр
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Веб-приложение для просмотра каталога игр с поиском и фильтрацией по жанрам.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Технологии
+
+- Vue.js 3
+- Vite
+- CSS3
+
+## 📦 Установка и запуск
+
+```bash
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm run dev
+
+# Сборка для продакшена
+npm run build
+
+# Деплой на GitHub Pages
+npm run deploy
+```
+
+## 🎯 Функциональность
+
+- Просмотр каталога из 10 популярных игр
+- Поиск игр по названию
+- Фильтрация по жанрам (RPG, Action, Strategy, Sandbox, Simulation)
+- Детальная информация о каждой игре
+- Адаптивный дизайн для всех устройств
+
+Автор: Bolotbekov Alibek
