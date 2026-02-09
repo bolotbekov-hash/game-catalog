@@ -32,4 +32,34 @@ npm run deploy
 - Детальная информация о каждой игре
 - Адаптивный дизайн для всех устройств
 
+  game-catalog/
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   ├── vue.svg
+│   │
+│   ├── components/
+│   │   ├── AppHeader.vue       # Заголовок приложения
+│   │   ├── GameCard.vue        # Карточка игры
+│   │   └── GameCatalog.vue     # Каталог с поиском и фильтрацией
+│   │
+│   ├── data/
+│   │   └── games.js            # Массив данных об играх
+│   │
+│   ├── App.vue                 # Корневой компонент
+│   ├── main.js                 # Точка входа приложения
+│   └── style.css               # Глобальные стили
+│
+├── .gitignore
+├── .vscode/
+│   └── extensions.json
+│
+├── index.html                  # HTML шаблон
+├── package.json                # Зависимости проекта
+├── package-lock.json
+├── vite.config.js              # Конфигурация Vite
+└── README.md                   # Документация
+
 Автор: Bolotbekov Alibek
